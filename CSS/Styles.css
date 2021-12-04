@@ -236,3 +236,183 @@ footer{
     animation-duration: 3s;
     animation-timing-function: ease;
 }
+/*3) NOSOTROS #################################################################################################################################*/
+.container-nosotros{
+    display: grid;
+    grid-template-areas:
+    "texto texto imagen imagen"
+    "video video texto2 texto2";
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50% 50%;
+    margin: 10px;
+    border: solid 5px black;
+}
+.texto{
+    grid-area: texto;
+    margin: 10%;
+}
+.imagen{
+    grid-area: imagen;
+    margin: 10%;
+    justify-content: center;
+}
+.video{
+    grid-area: video;
+    height: 20%;
+}
+.texto2{
+    grid-area: texto2;
+    margin: 10%;
+}
+/*4) CURSOS #################################################################################################################################*/
+.container-cursos{
+    display: grid;
+    grid-template-areas:
+    "img1 img1 duracion-material duracion-material"
+    "formato formato img2 img2"
+    "img3 img3 plataforma plataforma"
+    "te-esperamos te-esperamos te-esperamos te-esperamos";
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
+    margin: 10px;
+    border: solid 5px black;
+}
+.img1{
+    grid-area: img1;
+    margin: 10%;
+    width: max-content;
+}
+.duracion-material{
+    grid-area: duracion-material;
+    margin: 10%;
+}
+.formato{
+    grid-area: formato;
+    margin: 10%;
+}
+.img2{
+    grid-area: img2;
+    margin: 10%;
+}
+.img3{
+    grid-area: img3;
+    margin: 10%;
+}
+.plataforma{
+    grid-area: plataforma;
+    margin: 10%;
+}
+.te-esperamos{
+    grid-area: te-esperamos;
+    margin: 10%;
+    width: 100%;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+/*5) FAQ #################################################################################################################################*/
+.container-faq{
+    display: grid;
+    grid-template-areas:
+    "personas uno"
+    "dos laptop"
+    "mundo tres"
+    "cuatro cerebro"
+    "pizarra cinco"
+    "seis libros"
+    "reloj siete"
+    "ocho costo"
+    "pregunta nueve"
+    "diez lapiz";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(10,10%);
+    margin: 10px;
+    border: solid 5px black;
+}
+.personas{
+    grid-area: personas;
+    margin: 10%;
+}
+.uno{
+    grid-area: uno;
+    margin: 10%;
+}
+.dos{
+    grid-area: dos;
+    margin: 10%;
+}
+.laptop{
+    grid-area: laptop;
+    margin: 10%;
+}
+.mundo{
+    grid-area: mundo;
+    margin: 10%;
+}
+.tres{
+    grid-area: tres;
+    margin: 10%;
+}
+.cuatro{
+    grid-area: cuatro;
+    margin: 10%;
+}
+.cerebro{
+    grid-area: cerebro;
+    margin: 10%;
+}
+.pizarra{
+    grid-area: pizarra;
+    margin: 10%;
+}
+.cinco{
+    grid-area: cinco;
+    margin: 10%;
+}
+.seis{
+    grid-area: seis;
+    margin: 10%;
+}
+.libros{
+    grid-area: libros;
+    margin: 10%;
+}
+.reloj{
+    grid-area: reloj;
+    margin: 10%;
+}
+.pregunta{
+    grid-area: pregunta;
+    margin: 10%;
+}
+.siete{
+    grid-area: siete;
+    margin: 10%;
+}
+.ocho{
+    grid-area: ocho;
+    margin: 10%;
+}
+.costo{
+    grid-area: costo;
+    margin: 10%;
+}
+.pregunta{
+    grid-area: pregunta;
+    margin: 10%;
+}
+.nueve{
+    grid-area: nueve;
+    margin: 10%;
+}
+.diez{
+    grid-area: diez;
+    margin: 10%;
+}
+.lapiz{
+    grid-area: lapiz;
+    margin: 10%;
+}
+
+/*6) OPINIONES #################################################################################################################################*/
+/*7) CONTACTANOS #################################################################################################################################*/
