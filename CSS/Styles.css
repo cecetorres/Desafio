@@ -1,0 +1,171 @@
+/* 
+INDICE:
+1) GENERAL
+2)INDEX
+3)NOSOTROS
+4)CURSOS
+5)FAQ
+6)OPINIONES
+7)CONTACTANOS
+
+1) GENERAL #################################################################################################################################*/
+@import url('https://fonts.googleapis.com/css2? family = Open + Sans & family = Roboto: wght @ 400; 700 & display = swap');
+*{
+    margin:0 ;
+    padding:0 ; 
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    background-color: whitesmoke;
+    background-size: 10%;
+    padding: 2px;
+    padding-top: 100px;
+    border: solid 2px black;
+    margin: 5px;
+}
+h2{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: #03045E;
+    background-size: 45px;
+    padding: 5px;
+    border: 10px;
+    border-radius: 5px;
+    border-width: 10px;
+    margin: 5px;
+}
+h3{
+    font-size: 10px;
+    font-weight: bold;
+    background-color: #48CAE4;
+    background-size: 35px;
+    padding: 5px;
+    border: 10px;
+    border-radius: 5px;
+    background-position: right;
+    margin: 5px;
+}
+p{
+    font-size: 10px;
+    background-color: #CAF0F8;
+    background-size: 35px;
+    padding: 5px;
+    border: 10px;
+    border-radius: 5px;
+    background-position: center;
+}
+.menu{
+    display: flex;
+    flex-flow: row;
+    margin: 5 px;
+    padding: 5 px;
+    position: fixed;
+    z-index: 100;
+    justify-content: flex-start;
+    align-items: center;
+    height: 15% ;
+    width: 100%;
+    background-color: rgb(113, 119, 199);
+    color: black;
+}
+.menu-items{
+    list-style: none;
+    position: sticky;
+    top: 10px;
+    right: 0;
+    display:inline;
+    margin: 10px;
+    padding: 10px;
+    border: solid 2px black;
+    border-radius: 5px;
+    background-color: #c1c2dd;
+    font-size: 25px;
+}
+.menu-items:hover{
+    background-color: black
+}
+.boton--contacto{
+    position: fixed;
+    right: 1%;
+    bottom: 10%;
+}
+
+footer{
+    display:flex;
+    background-color: #CAF0F8;
+    margin: 20px;
+    padding: 25px;
+}
+
+/*2) INDEX #################################################################################################################################*/
+.h2-index{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+}
+/* Contenido del index */
+.container-index{
+    display: grid;
+    grid-template-areas: 
+    "boton titulo titulo titulo"
+    "img img parrafo parrafo"
+    "otro otro img2 img2";
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 20% 40% 40%;
+    margin: 10px;
+    border: solid 5px black;
+}
+.boton{
+    grid-area: boton;
+    display:flex;
+    margin: 10%;
+    width: 100%;
+    height: 50%;
+    font-size: 40px;
+    font-weight: bold;
+    border: solid 2px black;
+    border-radius: 5px;
+    background-color: #00B4D2;
+    justify-content: center;
+    align-content: center;
+}
+.boton:hover{
+    background-color: beige;
+}
+.titulo{
+	grid-area: titulo;
+    margin: 10%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.titulo h3{
+    font-size: 40px;
+    display: flex;
+}
+.img{
+    grid-area: img;
+    justify-content: center;
+    margin: 10%;
+}
+.parrafo{
+    grid-area: parrafo;
+    flex-flow: row wrap;
+    margin: 10%;
+}
+.otro{
+    grid-area: otro;
+    margin: 10%;
+}
+.img2{
+    grid-area: img2;
+    justify-content: center;
+    align-content: flex-end;
+    margin: 10%;
+}
